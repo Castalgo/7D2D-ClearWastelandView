@@ -1,1 +1,1 @@
-Download as zip an put it into your Mod Folder
+Place the extracted `Mods` folder in your mods directory under `%AppData%\7DaysToDie\`.
