@@ -1,11 +1,11 @@
 <configs>
-    <!-- 1. Loescht den Wasteland-Farbfilter komplett (das Wald-Biom hat keinen eigenen Filter-Tag und nutzt die klare Standardoptik) -->
+    <!-- 1. Completely removes the Wasteland color filter (the forest biome has no specific filter tag and uses the clear, standard look). -->
     <remove xpath="/worldgeneration/biomes/biome[@name='wasteland']/spectrum"/>
 
-    <!-- 2. Loescht alle Nebel-Eintraege aus saemtlichen Wetter-Zustaenden des Wastelands -->
+    <!-- 2. Deletes all fog entries from all weather states in the Wasteland. -->
     <remove xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather/Fog"/>
     
-    <!-- 3. Fuegt die Standard-Nebel-Werte (0 bis 2) des Waldes in alle Wetter-Zustaende ein -->
+    <!-- 3. Adds the forest's default fog values ​​(0 to 2) to all weather states. -->
     <append xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather">
         <Fog range="0,2"/>
     </append>
