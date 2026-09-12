@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ModInfo>
+  <Name value="ClearWastelandView" />
+  <DisplayName value="Normal View in Wastelands" />
+  <Description value="Removes the fog and color filter in the Wasteland." />
+  <Author value="Castalgo" />
+  <Version value="0.1" />
+  <Website value="" />
+</ModInfo>
